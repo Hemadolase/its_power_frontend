@@ -25,8 +25,7 @@ function Product() {
           <img
             src="img/Product_BG.png"
             alt="Products Background"
-            data-aos="zoom-out"
-            data-aos-duration="900"
+            
           />
 
           <h1
