@@ -4030,7 +4030,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("img/Product_section_Banner3.png");
+  background-image: url("/img/Product_section_Banner3.png");
    background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4076,7 +4076,7 @@ textarea {
    width: 400px;
   height: 68vh;
  
- background-image: url("img/Product_section_Banner2.png");
+ background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4134,7 +4134,7 @@ textarea {
 .Servo_3ph_oil .box1 .b1{
   width: 400px;
   height: 68vh;
-  background-image: url("img/Product_section_Banner2.png");
+  background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4189,7 +4189,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-image: url("img/Product_section_Banner2.png");
+   background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4238,7 +4238,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-image: url("img/Product_section_Banner2.png");
+   background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4284,7 +4284,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-image: url("img/Product_section_Banner2.png");
+   background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4328,7 +4328,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-image: url("img/Product_section_Banner2.png");
+   background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -4374,7 +4374,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-image: url("img/Product_section_Banner2.png");
+   background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -5307,7 +5307,7 @@ textarea {
 }
 .product-grid .b1{
   
-  background: url("img/Product_section_Banner2.png");
+  background: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -5315,14 +5315,14 @@ textarea {
 
 
 .product-grid .b2{
-  background: url("img/Product_section_Banner3.png");
+  background: url("/img/Product_section_Banner3.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
 }
 
 .product-grid .b3{
-  background: url("img/Product_section_Banner2.png");
+  background: url("/img/Product_section_Banner2.png");
   background-size: cover;          /* full width like sample */
   background-position: center;      /* perfect horizontal alignment */
   background-repeat: no-repeat;
@@ -5474,7 +5474,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("img/Product_section_Banner2.png");
+  background: url("/img/Product_section_Banner2.png");
   background-size: cover;
   background-position: center;
 }
@@ -5495,7 +5495,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("img/Product_section_Banner3.png");
+  background: url("/img/Product_section_Banner3.png");
   background-size: cover;
   background-position: center;
 
@@ -5508,7 +5508,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("img/Product_section_Banner1.png");
+  background: url("/img/Product_section_Banner1.png");
   background-size: cover;
   background-position: center;
 }
