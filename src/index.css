@@ -3551,7 +3551,7 @@ textarea {
   width: 194px;
   height: 163px;
   border-radius: 25px;
-  background-image: url("img/Product_section_Banner1.png");
+  background-image: url("/img/Product_section_Banner1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3564,7 +3564,7 @@ textarea {
   width: 194px;
   height: 163px;
   border-radius: 25px;
-  background-image: url("img/Product_section_Banner2.png");
+  background-image: url("/img/Product_section_Banner2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3577,7 +3577,7 @@ textarea {
   width: 194px !important;
   height: 163px !important;
   border-radius: 25px;
-  background-image: url("img/Product_section_Banner3.png");
+  background-image: url("/img/Product_section_Banner3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3590,7 +3590,7 @@ textarea {
   width: 194px !important;
   height: 163px !important;
   border-radius: 25px;
-  background-image: url("img/Product_section_Banner1.png");
+  background-image: url("/img/Product_section_Banner1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3603,7 +3603,7 @@ textarea {
   width: 194px !important;
   height: 163px !important;
   border-radius: 25px;
-  background-image: url("img/Product_section_Banner4.png");
+  background-image: url("/img/Product_section_Banner4.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
