@@ -2839,6 +2839,7 @@ img {
   color: #333;
   text-align: left;
 }
+
 /* Contact !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* ===================================== */
 /*           CONTACT PAGE HERO           */
@@ -3281,27 +3282,6 @@ textarea {
 
   .careers-hero h1 {
     font-size: 40px;
-  }
-}
-/* FIX CROPPED HERO IMAGES ON MOBILE */
-@media (max-width: 600px) {
-
-  .contact-hero,
-  .careers-hero {
-    height: auto !important;         /* remove fixed height */
-    padding-top: 65% !important;     /* maintain aspect ratio */
-    background-size: contain !important;  /* show full image */
-    background-position: top center !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .contact-hero h1,
-  .careers-hero h1 {
-    font-size: 32px !important;
-  }
-
-  .contact-hero p {
-    font-size: 14px !important;
   }
 }
 
