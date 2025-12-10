@@ -34,8 +34,8 @@ function Online_ups_3_3_ph() {
           </p>
 
           <div className="hero-buttons">
-            <NavLink href="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink href="/technicalSpecification_3_3ph" className="btn-outline">Technical Specs</NavLink>
+            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
+            <NavLink to="/technicalSpecification_3_3ph" className="btn-outline">Technical Specs</NavLink>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ function Online_ups_3_3_ph() {
               <div className="app-img-box">
                 <img src={item.img} alt={item.title} />
                 <div className="hover-overlay">
-                  <NavLink href="/contact" className="know-btn">KNOW MORE</NavLink>
+                  <NavLink to="/contact" className="know-btn">KNOW MORE</NavLink>
                 </div>
               </div>
               <p className="app-text">{item.title}</p>
@@ -99,7 +99,7 @@ function Online_ups_3_3_ph() {
         <ul className="spec-list">
           <li>
             30 KVA – 200 KVA For 3 Phase – 3 Phase 
-            <NavLink href="/technicalSpecification_3_3ph"> Learn More ➜ </NavLink>
+            <NavLink to="/technicalSpecification_3_3ph"> Learn More ➜ </NavLink>
           </li>
         </ul>
 
