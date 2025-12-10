@@ -1,110 +1,67 @@
-import React, { useRef, useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import nodemailer from "nodemailer";
+import multer from "multer";
 
-function Careers() {
-  const form = useRef();
-  const [loading, setLoading] = useState(false);
+export const config = {
+  api: { bodyParser: false },
+};
 
-  useEffect(() => {
-    AOS.init({ duration: 800, once: true });
-  }, []);
+const upload = multer({ storage: multer.memoryStorage() });
 
-  const sendCareerForm = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-
-    const formData = new FormData();
-    formData.append("fullname", form.current.fullname.value);
-    formData.append("education", form.current.education.value);
-    formData.append("phone", form.current.phone.value);
-    formData.append("email", form.current.email.value);
-    formData.append("experience", form.current.experience.value);
-    formData.append("location", form.current.location.value);
-    formData.append("message", form.current.message.value);
-    formData.append("resume", form.current.resume.files[0]); // IMPORTANT
-
-    try {
-      const res = await fetch(
-        "https://its-power-backend.vercel.app/api/send-career",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
-
-      const result = await res.json();
-
-      if (result.success) {
-        alert("Application Sent Successfully!");
-        form.current.reset();
-      } else {
-        alert("Failed to send application!");
-      }
-    } catch (err) {
-      alert("Server Error!");
-    }
-
-    setLoading(false);
-  };
-
-  return (
-    <>
-      {/* HERO SECTION */}
-      <section className="careers-hero">
-        <div className="hero-overlay"></div>
-        <h1 data-aos="fade-up">Careers</h1>
-      </section>
-
-      {/* INTRO SECTION */}
-      <section className="careers-intro">
-        <h2 data-aos="fade-up">
-          Powering Possibilities. Delivering Innovations.
-        </h2>
-
-        <p data-aos="fade-up" data-aos-delay="150">
-          Join our team and build a future where innovation powers every solution.
-        </p>
-      </section>
-
-      {/* FORM SECTION */}
-      <section className="careers-form-section">
-        <div className="career-form-card" data-aos="zoom-in">
-          <h2>Apply for Job</h2>
-
-          <form ref={form} className="career-form" onSubmit={sendCareerForm}>
-            
-            <div className="form-row">
-              <input type="text" name="fullname" placeholder="Full Name" required />
-              <input type="text" name="education" placeholder="Education" required />
-            </div>
-
-            <div className="form-row">
-              <input type="text" name="phone" placeholder="Phone Number" required />
-              <input type="email" name="email" placeholder="Email" required />
-            </div>
-
-            <div className="form-row">
-              <input type="text" name="experience" placeholder="Experience (Years)" required />
-              <input type="text" name="location" placeholder="Current Location" required />
-            </div>
-
-            <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-
-            <div className="upload-box">
-              <label>Upload Resume</label>
-              <input type="file" name="resume" accept=".pdf,.doc,.docx" required />
-            </div>
-
-            <button type="submit" className="submit-btn">
-              {loading ? "Sending..." : "Submit Application"}
-            </button>
-
-          </form>
-        </div>
-      </section>
-    </>
-  );
+function runMiddleware(req, res, fn) {
+  return new Promise((resolve, reject) => {
+    fn(req, res, (result) => {
+      if (result instanceof Error) return reject(result);
+      return resolve(result);
+    });
+  });
 }
 
-export default Careers;
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method Not Allowed" });
+  }
+
+  await runMiddleware(req, res, upload.single("resume"));
+
+  try {
+    const { fullname, email, phone, education, experience, location, message } = req.body;
+
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
+      },
+    });
+
+    await transporter.sendMail({
+      from: process.env.GMAIL_USER,
+      to: "sales@itspowerinfra.com",
+      subject: `New Job Application from ${fullname}`,
+      html: `
+        <h3>New Job Application</h3>
+        <p><b>Name:</b> ${fullname}</p>
+        <p><b>Email:</b> ${email}</p>
+        <p><b>Phone:</b> ${phone}</p>
+        <p><b>Education:</b> ${education}</p>
+        <p><b>Experience:</b> ${experience}</p>
+        <p><b>Location:</b> ${location}</p>
+        <p><b>Message:</b><br>${message}</p>
+      `,
+      attachments: [
+        {
+          filename: req.file.originalname,
+          content: req.file.buffer,
+        },
+      ],
+    });
+
+    return res.status(200).json({ success: true });
+
+  } catch (err) {
+    console.log("CAREER ERROR:", err);
+    return res.status(500).json({ success: false, error: err.message });
+  }
+}
