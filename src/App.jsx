@@ -70,9 +70,10 @@ function App() {
             <Route path="servo_1ph_1ph" element={<Servo_1ph_1ph />} />
             <Route path="servo_3ph_3ph" element={<Servo_3ph_3ph />} />
             <Route path="servo_3ph_oil" element={<Servo_3ph_oil />} />
-            <Route path="technicalSpecification_servo_1ph" element={<TechnicalSpecification_servo_1ph />} />
-            <Route path="technicalSpecification_servo_3ph" element={<TechnicalSpecification_servo_3ph />} />
+            <Route path="technicalspecification_servo_1ph" element={<TechnicalSpecification_servo_1ph />} />
+            <Route path="technicalspecification_servo_3ph" element={<TechnicalSpecification_servo_3ph />} />
 
+          
             {/* Load Bank */}
             <Route path="LoadBank" element={<LoadBank />} />
             <Route path="loadbank_resistive" element={<Loadbank_resistive />} />

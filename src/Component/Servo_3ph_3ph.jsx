@@ -26,7 +26,7 @@ function Servo_3ph_3ph() {
 
           <div className="hero-buttons">
             <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink to="/technicalSpecification_servo_3ph" className="btn-outline">
+            <NavLink to="/technicalspecification_servo_3ph" className="btn-outline">
               Technical Specs
             </NavLink>
           </div>
@@ -78,7 +78,7 @@ function Servo_3ph_3ph() {
       <ul className="spec-list">
         <li>
           6 KVA – 500 KVA for 3 Phase – 3 Phase
-          <NavLink to="/technicalSpecification_servo_3ph"> Learn More ➜ </NavLink>
+          <NavLink to="/technicalspecification_servo_3ph"> Learn More ➜ </NavLink>
         </li>
       </ul>
     </>

@@ -25,7 +25,7 @@ function Servo_1ph_1ph() {
 
           <div className="hero-buttons">
             <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink to="/technicalSpecification_servo_1ph" className="btn-outline">
+            <NavLink to="/technicalspecification_servo_1ph" className="btn-outline">
               Technical Specs
             </NavLink>
           </div>
@@ -77,7 +77,7 @@ function Servo_1ph_1ph() {
       <ul className="spec-list">
         <li>
           1 KVA – 2000 KVA (Single Phase)
-          <NavLink to="/technicalSpecification_servo_1ph"> Learn More ➜ </NavLink>
+          <NavLink to="/technicalspecification_servo_1ph"> Learn More ➜ </NavLink>
         </li>
       </ul>
     </>
