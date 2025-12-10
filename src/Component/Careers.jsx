@@ -25,9 +25,8 @@ function Careers() {
     formData.append("resume", form.current.resume.files[0]); // IMPORTANT
 
     try {
-      const res = await fetch(
-        "https://its-power-backend.vercel.app/send-career",
-        {
+     const res = await fetch("https://its-power-backend.vercel.app/api/send-career", {
+
           method: "POST",
           body: formData,
         }
