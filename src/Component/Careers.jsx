@@ -25,8 +25,9 @@ function Careers() {
     formData.append("resume", form.current.resume.files[0]); // IMPORTANT
 
     try {
-      const res = await fetch("https://its-power-backend.onrender.com/send-career", {
-
+      const res = await fetch(
+        "https://its-power-backend.vercel.app/send-career",
+        {
           method: "POST",
           body: formData,
         }
