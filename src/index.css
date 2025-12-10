@@ -3103,7 +3103,13 @@ textarea {
 /*              RESPONSIVE               */
 /* ===================================== */
 
+@media (min-width: 768px) {
+  .contact-hero {
+    height: 350px;
+    background-position: center center;
+  }
 
+}
 
 
 
@@ -3261,6 +3267,10 @@ textarea {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+   .careers-hero {
+    height: 350px;
+    background-position: center;
+  }
   .form-row {
     flex-direction: column;
   }
@@ -3294,7 +3304,6 @@ textarea {
     font-size: 14px !important;
   }
 }
-
 
 /*****************************Industrial Inverter****************************************/
 
