@@ -11,12 +11,12 @@ function Industrial_Inverter() {
           <p>High-efficiency power backup for homes, offices, industries & critical loads.</p>
            <div className="hero-btns">
                         <NavLink to="/contact" className="hero-btn-primary">
-                          Get a Quote
+                          Get NavLink Quote
                         </NavLink>
             
-                        <a href="#battery-products" className="hero-btn-outline">
+                        <NavLink to="#battery-products" className="hero-btn-outline">
                           Explore Range
-                        </a>
+                        </NavLink>
                       </div>
         </div>
 
@@ -36,7 +36,7 @@ function Industrial_Inverter() {
           <h2>Reliable Power Backup with Advanced Inverter Technology</h2>
 
           <p>
-            Industrial inverters are a smarter alternative to traditional generators.
+            Industrial inverters are NavLink smarter alternative to traditional generators.
             They eliminate fuel wastage, noise, pollution, and long change-over delays.
             Inverters supply AC power during mains failure by converting stored DC battery
             energy using high-speed switching technology.

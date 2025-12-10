@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Application from "./Application";
+import { NavLink } from "react-router-dom";
 
 function Servo_3ph_oil() {
 
@@ -25,7 +26,7 @@ function Servo_3ph_oil() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
+            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
             
           </div>
         </div>
@@ -77,7 +78,7 @@ function Servo_3ph_oil() {
       <ul className="spec-list">
         <li>
           Available in Oil-Cooled Models  
-          <a href="/technicalSpecification_servo_oil"> Learn More ➜ </a>
+          <NavLink to="/technicalSpecification_servo_oil"> Learn More ➜ </NavLink>
         </li>
       </ul>
     </>

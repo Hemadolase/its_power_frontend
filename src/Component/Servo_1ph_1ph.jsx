@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Application from "./Application";
+import { NavLink } from "react-router-dom";
 
 function Servo_1ph_1ph() {
   useEffect(() => {
@@ -23,10 +24,10 @@ function Servo_1ph_1ph() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
-            <a href="/technicalSpecification_servo_1ph" className="btn-outline">
+            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
+            <NavLink to="/technicalSpecification_servo_1ph" className="btn-outline">
               Technical Specs
-            </a>
+            </NavLink>
           </div>
         </div>
 
@@ -76,7 +77,7 @@ function Servo_1ph_1ph() {
       <ul className="spec-list">
         <li>
           1 KVA – 2000 KVA (Single Phase)
-          <a href="/technicalSpecification_servo_1ph"> Learn More ➜ </a>
+          <NavLink to="/technicalSpecification_servo_1ph"> Learn More ➜ </NavLink>
         </li>
       </ul>
     </>

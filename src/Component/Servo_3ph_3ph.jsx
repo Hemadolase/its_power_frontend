@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Application from "./Application";
+import { NavLink } from "react-router-dom";
 
 function Servo_3ph_3ph() {
 
@@ -24,10 +25,10 @@ function Servo_3ph_3ph() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
-            <a href="/technicalSpecification_servo_3ph" className="btn-outline">
+            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
+            <NavLink to="/technicalSpecification_servo_3ph" className="btn-outline">
               Technical Specs
-            </a>
+            </NavLink>
           </div>
         </div>
 
@@ -77,7 +78,7 @@ function Servo_3ph_3ph() {
       <ul className="spec-list">
         <li>
           6 KVA – 500 KVA for 3 Phase – 3 Phase
-          <a href="/technicalSpecification_servo_3ph"> Learn More ➜ </a>
+          <NavLink to="/technicalSpecification_servo_3ph"> Learn More ➜ </NavLink>
         </li>
       </ul>
     </>
