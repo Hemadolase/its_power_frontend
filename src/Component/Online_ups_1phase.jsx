@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
+import { NavLink } from "react-router-dom";
+
 import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 function Online_ups_1phase() {
@@ -24,8 +27,8 @@ function Online_ups_1phase() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
-            <a href="/technicalSpecification" className="btn-outline">Technical Specs</a>
+            <NavLink href="#" className="btn-primary">Download Brochure</NavLink>
+            <NavLink href="/technicalSpecification" className="btn-outline">Technical Specs</NavLink>
           </div>
         </div>
 
@@ -94,7 +97,7 @@ function Online_ups_1phase() {
 
           {/* 🔵 Hover Overlay */}
           <div className="hover-overlay">
-            <a href="/contact" className="know-btn">KNOW MORE</a>
+            <NavLink href="/contact" className="know-btn">KNOW MORE</NavLink>
           </div>
         </div>
 

@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { NavLink } from "react-router-dom";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,8 +34,8 @@ function Online_ups_3_3_ph() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
-            <a href="/technicalSpecification_3_3ph" className="btn-outline">Technical Specs</a>
+            <NavLink href="#" className="btn-primary">Download Brochure</NavLink>
+            <NavLink href="/technicalSpecification_3_3ph" className="btn-outline">Technical Specs</NavLink>
           </div>
         </div>
 
@@ -82,7 +84,7 @@ function Online_ups_3_3_ph() {
               <div className="app-img-box">
                 <img src={item.img} alt={item.title} />
                 <div className="hover-overlay">
-                  <a href="/contact" className="know-btn">KNOW MORE</a>
+                  <NavLink href="/contact" className="know-btn">KNOW MORE</NavLink>
                 </div>
               </div>
               <p className="app-text">{item.title}</p>
@@ -97,7 +99,7 @@ function Online_ups_3_3_ph() {
         <ul className="spec-list">
           <li>
             30 KVA – 200 KVA For 3 Phase – 3 Phase 
-            <a href="/technicalSpecification_3_3ph"> Learn More ➜ </a>
+            <NavLink href="/technicalSpecification_3_3ph"> Learn More ➜ </NavLink>
           </li>
         </ul>
 
