@@ -26,7 +26,7 @@ function Careers() {
 
     try {
       const res = await fetch(
-        "https://its-power-backend.vercel.app/send-career",
+        "https://its-power-backend.vercel.app/api/send-career",
         {
           method: "POST",
           body: formData,
