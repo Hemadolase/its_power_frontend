@@ -23,7 +23,7 @@ function Contact() {
     };
 
     try {
-     const res = await fetch("https://its-power-backend.vercel.app/send-career", {
+    const res = await fetch("https://its-power-backend.vercel.app/send-contact", {
 
         method: "POST",
         headers: { "Content-Type": "application/json" },
