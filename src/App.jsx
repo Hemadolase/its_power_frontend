@@ -34,6 +34,7 @@ import BatteryCharger_3ph_FCBC from './Component/BatteryCharger_3ph_FCBC';
 import Isolation_transformer from './Component/Isolation_transformer';
 import Solar_off_grid from './Component/Solar_off_grid';
 import Gellery from './Component/Gellery';
+import OtherProducts from './Component/OtherProducts';
 
 
 function App() {
@@ -95,6 +96,11 @@ function App() {
             {/* Gellery */}
 
               <Route path="gellery" element={<Gellery />} />
+
+              {/* Other Product */}
+
+              <Route path="/other-products" element={<OtherProducts />} />
+
 
 
           </Route>

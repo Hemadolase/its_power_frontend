@@ -68,7 +68,7 @@ function ProductCategories() {
   </div>
 
   <div className="cat-box">
-    <NavLink to="/other">
+    <NavLink to="/other-products">
       <div className="child child5">
         <div className="box5">
           Inverter, Load Bank, Isolation transformer etc.

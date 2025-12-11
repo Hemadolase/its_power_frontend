@@ -7,7 +7,7 @@ function Solar_off_grid() {
       {/* ================= HERO SECTION ================= */}
       <section className="solar-hero">
         <div className="solar-hero-content" data-aos="fade-up">
-          <h1>Solar Off-Grid Inverter</h1>
+          <h1>Solar Off-Grid  <br />Inverter / Solar UPS</h1>
           <p>Reliable, renewable and independent power – anywhere, anytime.</p>
            <div className="hero-btns">
                         <NavLink to="/contact" className="hero-btn-primary">

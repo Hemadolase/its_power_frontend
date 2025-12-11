@@ -1,43 +1,40 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { Carousel } from "bootstrap";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Home_Slider() {
 
-  useEffect(() => {
-   
-    AOS.init({
-      duration: 800,
-      once: false,   
-      mirror: true,  
-    });
+ useEffect(() => {
+  AOS.init({
+    duration: 800,
+    once: false,
+    mirror: true,
+  });
 
-    AOS.refresh();
+  const timer = setTimeout(() => {
+    const myCarousel = document.querySelector("#heroCarousel");
+    if (myCarousel) {
+      new Carousel(myCarousel, {
+        interval: 3000,
+        ride: "carousel",
+        pause: false,
+        wrap: true
+      });
+    }
+  }, 300);
 
- 
-    const timer = setTimeout(() => {
-      const myCarousel = document.querySelector('#heroCarousel');
-      if (myCarousel) {
-        const carousel = new window.bootstrap.Carousel(myCarousel, {
-          interval: 3000,
-          ride: "carousel"
-        });
-      }
-    }, 300);
+  return () => clearTimeout(timer);
+}, []);
 
-    return () => clearTimeout(timer);
-  }, []);
+
 
   return (
     <>
-      <div
-        id="heroCarousel"
-        className="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-interval="3000"
-      >
+     <div id="heroCarousel" className="carousel slide ">
+
 
         {/* Indicators */}
         <div className="carousel-indicators">

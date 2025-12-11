@@ -5,6 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Navbar() {
+  
+  const [isOpen, setIsOpen] = useState(false);
+
 
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
@@ -95,18 +98,16 @@ function Navbar() {
 
         {/* MOBILE TOGGLE */}
         <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          data-aos="zoom-in"
-          data-aos-delay="150"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+  className="navbar-toggler"
+  type="button"
+  onClick={() => setIsOpen(!isOpen)}
+>
+  <span className="navbar-toggler-icon"></span>
+</button>
+
 
         {/* MENU */}
-        <div className="collapse navbar-collapse" id="navbarNav">
+      <div className={`navbar-collapse ${isOpen ? "show" : "collapse"}`} id="navbarNav">
 
           <ul className="navbar-nav" data-aos="fade-left" data-aos-delay="200">
 
@@ -119,25 +120,34 @@ function Navbar() {
             </li>
 
             {/* PRODUCT + ARROW */}
-            <li className="nav-item dropdown">
+           <li className="nav-item dropdown d-flex align-items-center">
 
-              <NavLink className="nav-link" to="/product">Product</NavLink>
+  {/* PRODUCT PAGE LINK */}
+  <NavLink className="nav-link" to="/product">
+    Product
+  </NavLink>
 
-              <button
-                className="dropdown-toggle bg-transparent border-0"
-                data-bs-toggle="dropdown"
-              ></button>
+  {/* DROPDOWN ARROW — SEPARATE BUT CORRECT WAY */}
+  <a
+    href="#"
+    className="nav-link dropdown-toggle ps-1"
+    id="productDropdown"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  ></a>
 
-              <ul className="dropdown-menu">
-                <li><NavLink className="dropdown-item" to="/onlineUPS">Online UPS</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/Battery_Charger">Battery Charger</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/ServoStabilizer">Servo Stabiliser</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/LoadBank">Load Bank</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/IndustrialInverter">Industrial Inverter</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/isolation_transformer">Isolation Transformer</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/solarOff-GridInverter">Solar Off-Grid Inverter</NavLink></li>
-              </ul>
-            </li>
+  {/* DROPDOWN MENU */}
+  <ul className="dropdown-menu" aria-labelledby="productDropdown">
+    <li><NavLink className="dropdown-item" to="/onlineUPS">Online UPS</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/Battery_Charger">Battery Charger</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/ServoStabilizer">Servo Stabiliser</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/LoadBank">Load Bank</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/IndustrialInverter">Industrial Inverter</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/isolation_transformer">Isolation Transformer</NavLink></li>
+    </ul>
+
+</li>
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/career">Career</NavLink>

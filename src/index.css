@@ -186,6 +186,35 @@ button:focus-visible {
 
 
 /*******************************NavBar***********************************/
+/*******************************NavBar***********************************/
+/* Force navbar collapse to appear ABOVE everything */
+
+/* FIX: Online UPS page cutting dropdown */
+.ups-hero-section,
+.online-ups-hero,
+.onlineUPS-hero,
+.hero-section,
+.ups-hero {
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Bootstrap friendly dropdown */
+.dropdown-menu {
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+.navbar {
+  position: relative;
+  z-index: 99999 !important;
+}
+.dropdown-menu {
+  position: absolute !important;
+  z-index: 999999 !important;
+}
+
 
 /**********************************
         NAVBAR CLEAN CSS
@@ -458,6 +487,11 @@ button:focus-visible {
     width: 100%;
     margin-top: 8px;
   }
+}
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
 }
 
 
@@ -7161,3 +7195,89 @@ textarea {
     font-size: 26px;
   }
 }
+
+
+/*********************************Other Product **************************/
+/* ============================
+   OTHER PRODUCTS SECTION
+============================ */
+
+.other-products-section {
+  padding: 60px 0;
+  background: #f8fbff;
+  text-align: center;
+}
+
+.other-products-section .other-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0c2e57; /* dark blue same as your theme */
+  margin-bottom: 40px;
+}
+
+/* Grid layout */
+.other-products-section .other-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* Product Card */
+.other-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover Animation */
+.other-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Box */
+.other-img-box {
+  background: #eef6ff;
+  padding: 20px;
+  border-radius: 15px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Product Name */
+.other-card h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #003c80;
+  font-weight: 600;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .other-products-section .other-title {
+    font-size: 28px;
+  }
+
+  .other-img-box {
+    height: 180px;
+  }
+
+  .other-card h3 {
+    font-size: 18px;
+  }
+}
+/*  */
