@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import {NavLink} from  'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -39,32 +40,32 @@ function Footer() {
             <div className=' location'>sales@itspowerinfra.com</div>
           </div>
 
-          <a data-aos="zoom-in" data-aos-delay="400"
-            href="https://www.facebook.com"
+          <NavLink data-aos="zoom-in" data-aos-delay="400"
+            to="https://www.facebook.com"
             className="text-dark me-2 icon1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-facebook"></i>
-          </a>
+          </NavLink>
 
-          <a data-aos="zoom-in" data-aos-delay="450"
-            href="https://www.google.com"
+          <NavLink data-aos="zoom-in" data-aos-delay="450"
+            to="https://www.google.com"
             className="text-dark me-2 icon1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-google"></i>
-          </a>
+          </NavLink>
 
-          <a data-aos="zoom-in" data-aos-delay="500"
-            href="https://www.linkedin.com"
+          <NavLink data-aos="zoom-in" data-aos-delay="500"
+            to="https://www.linkedin.com"
             className="text-dark icon1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin"></i>
-          </a>
+          </NavLink>
         </div>
 
         <div className='box2'>
@@ -72,24 +73,25 @@ function Footer() {
           <div className='b1'>
             <h2 data-aos="fade-right">Product</h2>
 
-            <a data-aos="fade-right" data-aos-delay="100" href="">Industry Inverter</a><br />
-            <a data-aos="fade-right" data-aos-delay="150" href="">Online UPS</a><br />
-            <a data-aos="fade-right" data-aos-delay="200" href="">Servo Stabilizer</a><br />
-            <a data-aos="fade-right" data-aos-delay="250" href="">Battery Charger</a><br />
-            <a data-aos="fade-right" data-aos-delay="300" href="">Load Bank</a><br />
-            <a data-aos="fade-right" data-aos-delay="350" href="">Isoloation transformer</a><br />
-            <a data-aos="fade-right" data-aos-delay="400" href="">Solar off-grid</a><br />
+           
+            <NavLink data-aos="fade-right" data-aos-delay="150" to="/onlineUPS">Online UPS</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="100" to="/IndustrialInverter">Industry Inverter</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="200" to="/ServoStabilizer">Servo Stabilizer</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="250" to="/Battery_Charger">Battery Charger</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="300" to="/LoadBank">Load Bank</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="350" to="/isolation_transformer">Isoloation transformer</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="400" to="/solarOff-GridInverter">Solar off-grid</NavLink><br />
           </div>
 
           <div className='b2'>
             <h2 data-aos="fade-left">Company</h2>
 
-            <a data-aos="fade-left" data-aos-delay="100" href="">Home</a><br />
-            <a data-aos="fade-left" data-aos-delay="150" href="">About</a><br />
-            <a data-aos="fade-left" data-aos-delay="200" href="">Product</a><br />
-            <a data-aos="fade-left" data-aos-delay="250" href="">Partner</a><br />
-            <a data-aos="fade-left" data-aos-delay="300" href="">Careers</a><br />
-            <a data-aos="fade-left" data-aos-delay="350" href="">Contact</a><br />
+            <NavLink data-aos="fade-left" data-aos-delay="100" to="/">Home</NavLink><br />
+            <NavLink data-aos="fade-left" data-aos-delay="150" to="/about">About</NavLink><br />
+            <NavLink data-aos="fade-left" data-aos-delay="200" to="/product">Product</NavLink><br />
+            <NavLink data-aos="fade-left" data-aos-delay="250" to="/gellery">Gallery</NavLink><br />
+            <NavLink data-aos="fade-left" data-aos-delay="300" to="/career">Careers</NavLink><br />
+            <NavLink data-aos="fade-left" data-aos-delay="350" to="/contact">Contact</NavLink><br />
           </div>
 
         </div>
