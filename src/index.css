@@ -7670,6 +7670,58 @@ textarea {
     margin-top: 15px;
   }
 }
+/* --- FIX: SOLAR PRODUCT CARD SPACING ON MOBILE (VERCEL FIX) --- */
+.solar-products {
+  padding: 20px 15px;
+}
+
+.solar-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px !important;   /* FORCE GAP IN VERCEL */
+}
+
+/* Card */
+.solar-card {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+/* Card Image */
+.solar-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  
+}
+
+/* Title inside card */
+.solar-card h3 {
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+/* --- MOBILE FIX --- */
+@media (max-width: 768px) {
+
+  .solar-card {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .solar-card img {
+    height: 180px;
+    object-fit: cover;
+  }
+
+}
+
 /* ==================================================
    MOBILE FIX — ONLY FOR RESISTIVE LOAD BANK PAGE
 ================================================== */
