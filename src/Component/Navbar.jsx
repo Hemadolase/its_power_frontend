@@ -90,7 +90,7 @@ function Navbar() {
         {/* LOGO */}
         <NavLink className="navbar-brand" to="/" data-aos="fade-right" data-aos-delay="100">
           <img
-            src="/img/Untitled design (17)-Picsart-BackgroundRemover.png"
+            src="/img/its_logo.png"
             width="110"
             alt="logo"
           />

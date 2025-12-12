@@ -259,6 +259,7 @@ button:focus-visible {
 
 .container .navbar-brand img {
   width: 100px;
+ margin-left: 50px;
 }
 
 .sticky-navbar {
