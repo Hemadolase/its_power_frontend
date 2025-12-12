@@ -30,9 +30,10 @@ const Header = () => {
 
       {/* Social Icons */}
       <div className="social-icons-mobile">
-        <a href="#" className="top-icon"><i className="fab fa-facebook-f me-2"></i></a>
-        <a href="#" className="top-icon"><i className="fab fa-twitter me-2"></i></a>
-        <a href="#" className="top-icon"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/suresh.iramani.9" target="_blank" className="top-icon me-3"><i className="fab fa-facebook-f"></i></a>
+      <a href="https://www.google.com"  target="_blank" className="top-icon me-3"><i className="fab fa-google"></i></a>
+      <a href="https://www.linkedin.com/company/its-power-&-infrastructure-pvt-ltd/posts/?feedView=all" target="_blank" className="top-icon"><i className="fab fa-linkedin"></i></a>
+
       </div>
     </div>
 
