@@ -57,14 +57,14 @@ function ProductCategories() {
   </div>
 
   <div className="cat-box">
-    <NavLink to="/IndustrialInverter">
+    <NavLink to="/solarproduct">
       <div className="child child4">
         <div className="box4">
           A solar system converts sunlight into electricity.
         </div>
       </div>
     </NavLink>
-    <h5>Solar Inverter</h5>
+    <h5>Solar Product</h5>
   </div>
 
   <div className="cat-box">

@@ -118,6 +118,9 @@ function Navbar() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/about">About</NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/services">Service</NavLink>
+            </li>
 
             {/* PRODUCT + ARROW */}
            <li className="nav-item dropdown d-flex align-items-center">
@@ -168,7 +171,7 @@ function Navbar() {
           <form className="nav-search-box d-flex" onSubmit={handleSearch}>
             <input
               className="form-control me-2"
-              placeholder="Search..."
+              placeholder="Search Products"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />

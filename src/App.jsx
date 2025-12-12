@@ -38,6 +38,7 @@ import OtherProducts from './Component/OtherProducts';
 import SolarProduct from './Component/SolarProduct';
 import HybridACDC from './Component/HybridACDC';
 import HybridMultiOutput from './Component/HybridMultiOutput';
+import Services from './Component/Services';
 
 
 function App() {
@@ -110,9 +111,10 @@ function App() {
 
               {/* Other Product */}
 
-              <Route path="/other-products" element={<OtherProducts />} />
+              <Route path="other-products" element={<OtherProducts />} />
 
-
+              {/* Service Page */}
+               <Route path="services" element={<Services/>} />
 
           </Route>
         </Routes>

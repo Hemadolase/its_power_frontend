@@ -6392,7 +6392,8 @@ textarea {
 }
 
 .solar-hero-image img {
-  width: 300px;
+  width: 250px;
+  height: 100px;
   object-fit: contain;
 }
 
@@ -7471,6 +7472,7 @@ textarea {
   color: #fff;
   font-size: 18px;
   z-index: 3;
+  font-weight: 800;
   /* background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0.1), transparent); */
 }
 
@@ -7480,16 +7482,6 @@ textarea {
   /* box-shadow: 0 12px 30px rgba(0,0,0,0.25); */
 }
 
-
-.solar-card h3 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 12px;
-  color: #fff;
-  font-size: 18px;
-  /* background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0.1), transparent); */
-}
 
 /* Hover effect */
 .solar-card:hover {
@@ -7927,3 +7919,169 @@ textarea {
   }
 }
 
+/* Service Page  */
+/* ---------- HERO SECTION ---------- */
+.services-hero {
+  width: 100%;
+  height: 320px;
+  background: linear-gradient(135deg, #002b5b, #005f99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  /* background: url("/img/Annual-Maintenance-Contract.jpg") center/cover no-repeat; */
+
+}
+
+.services-hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.services-hero-content p {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* ---------- MAIN WRAPPER ---------- */
+.services-wrapper {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* ---------- SERVICE CARD ---------- */
+.service-card {
+  background: #ffffff;
+  padding: 35px;
+  margin-bottom: 50px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+  border-left: 6px solid #005f99;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-card h2 {
+  font-size: 28px;
+  color: #003965;
+  margin-bottom: 15px;
+}
+
+.service-desc {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+/* ---------- SUBSECTION ---------- */
+.service-subsection {
+  margin-bottom: 20px;
+}
+
+.service-subsection h3 {
+  font-size: 20px;
+  color: #005f99;
+  margin-bottom: 6px;
+}
+
+/* ---------- ENSURE LIST ---------- */
+.ensure-title {
+  margin-top: 20px;
+  color: #003965;
+  font-size: 22px;
+}
+
+.ensure-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.ensure-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media (max-width: 768px) {
+  .services-hero {
+    height: 250px;
+  }
+
+  .services-hero-content h1 {
+    font-size: 34px;
+  }
+
+  .service-card {
+    padding: 25px;
+  }
+}
+
+.ensure-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+
+}
+
+.ensure-left {
+  
+  flex: 1;
+}
+
+.ensure-left h2 {
+  color: #003965;
+  margin-bottom: 15px;
+}
+
+.ensure-left ul {
+  padding-left: 18px;
+}
+
+.ensure-left ul li {
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ensure-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.ensure-image {
+  width: 50%;
+  max-width: 350px;
+  border-radius: 10px;
+  object-fit: contain;
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.15); */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .ensure-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ensure-image {
+    width: 90%;
+    margin-top: 20px;
+  }
+}

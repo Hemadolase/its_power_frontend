@@ -41,7 +41,7 @@ function Footer() {
           </div>
 
           <NavLink data-aos="zoom-in" data-aos-delay="400"
-            to="https://www.facebook.com"
+            to="https://www.facebook.com/suresh.iramani.9"
             className="text-dark me-2 icon1"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +59,7 @@ function Footer() {
           </NavLink>
 
           <NavLink data-aos="zoom-in" data-aos-delay="500"
-            to="https://www.linkedin.com"
+            to="https://www.linkedin.com/company/its-power-&-infrastructure-pvt-ltd/posts/?feedView=all"
             className="text-dark icon1"
             target="_blank"
             rel="noopener noreferrer"
