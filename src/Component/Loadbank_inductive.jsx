@@ -7,7 +7,8 @@ function Loadbank_inductive() {
       {/* ----------------------------
           HERO SECTION (UPS Style)
       ----------------------------- */}
-      <section className="ups-hero">
+    <section className="ups-hero inductive-hero">
+
         <div className="hero-left" data-aos="fade-right">
           <h1 className="ups-title">Inductive Load Bank</h1>
 

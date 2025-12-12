@@ -7,7 +7,8 @@ function Loadbank_resistive() {
       {/* ----------------------------
           HERO SECTION
       ----------------------------- */}
-      <section className="ups-hero">
+    <section className="ups-hero resistive-hero">
+
         <div className="hero-left" data-aos="fade-right">
           <h1 className="ups-title">Resistive Load Bank</h1>
 

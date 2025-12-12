@@ -145,6 +145,7 @@ function Navbar() {
     <li><NavLink className="dropdown-item" to="/LoadBank">Load Bank</NavLink></li>
     <li><NavLink className="dropdown-item" to="/IndustrialInverter">Industrial Inverter</NavLink></li>
     <li><NavLink className="dropdown-item" to="/isolation_transformer">Isolation Transformer</NavLink></li>
+    <li><NavLink className="dropdown-item" to="/solarproduct">Solar Product</NavLink></li>
     </ul>
 
 </li>

@@ -13,7 +13,8 @@ function BatteryCharger_1ph() {
   return (
     <>
       {/* ⭐ HERO SECTION — Same as Online UPS 1Ph–1Ph */}
-      <section className="ups-hero">
+    <section className="ups-hero battery1ph-hero">
+
 
         <div className="hero-left" data-aos="fade-right">
           <h1 className="ups-title">Battery Charger 1Ph</h1>

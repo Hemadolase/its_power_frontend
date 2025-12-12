@@ -14,18 +14,14 @@ function Solar_off_grid() {
                           Get a Quote
                         </NavLink>
             
-                        <a href="#battery-products" className="hero-btn-outline">
-                          Explore Range
-                        </a>
+                       
                       </div>
         </div>
 
-        <div className="solar-hero-image" data-aos="fade-left">
-          <img
-            src="/img/online_2ed.jpeg"
-            alt="Solar Off Grid Inverter"
-          />
-        </div>
+        <div className="hero-image solar-hero-img" data-aos="zoom-in">
+  <img  src="/img/online_2ed.jpeg" alt="Solar Products" />
+</div>
+
       </section>
 
       {/* ================= ABOUT SECTION ================= */}

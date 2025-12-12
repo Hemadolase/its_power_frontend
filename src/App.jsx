@@ -35,6 +35,9 @@ import Isolation_transformer from './Component/Isolation_transformer';
 import Solar_off_grid from './Component/Solar_off_grid';
 import Gellery from './Component/Gellery';
 import OtherProducts from './Component/OtherProducts';
+import SolarProduct from './Component/SolarProduct';
+import HybridACDC from './Component/HybridACDC';
+import HybridMultiOutput from './Component/HybridMultiOutput';
 
 
 function App() {
@@ -89,6 +92,14 @@ function App() {
             <Route path="product" element={<Product />} />
             <Route path="isolation_transformer" element={<Isolation_transformer />} />
             <Route path="solarOff-GridInverter" element={<Solar_off_grid />} />
+               
+               {/* Solar Product */}
+
+              <Route path='solarproduct' element={<SolarProduct/>}/>
+              <Route path="/hybrid-multi-output" element={<HybridMultiOutput/>} />
+              <Route path="/hybrid-acdc" element={<HybridACDC />} />   
+
+
 
             {/* Careers */}
             <Route path="career" element={<Careers />} />

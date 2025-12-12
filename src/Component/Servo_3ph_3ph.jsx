@@ -14,7 +14,7 @@ function Servo_3ph_3ph() {
   return (
     <>
       {/* ⭐ HERO SECTION — Same design as UPS pages */}
-      <section className="ups-hero">
+     <section className="ups-hero servo-3ph-hero">
 
         <div className="hero-left" data-aos="fade-right">
           <h1 className="ups-title">Servo Stabilizer 3Ph–3Ph</h1>
@@ -33,7 +33,7 @@ function Servo_3ph_3ph() {
         </div>
 
         <div className="hero-right" data-aos="zoom-in">
-          <div className="hero-img-wrapper">
+          <div className="hero-img-wrapper ">
             <img src="/img/servo_stabilizer_3.jpeg" alt="Servo Stabilizer 3Ph–3Ph" />
           </div>
         </div>
