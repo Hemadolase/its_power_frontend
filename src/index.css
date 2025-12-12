@@ -7742,4 +7742,144 @@ textarea {
     text-align: center !important;
   }
 }
+/* =====================================================
+   MOBILE FIX FOR HYBRID SOLAR PAGE ONLY
+===================================================== */
+@media (max-width: 768px) {
+
+  /* Reduce font size so it doesn't drop awkwardly */
+  .hybrid-hero .ups-title {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+  }
+
+  /* Adjust subtitle for proper spacing */
+  .hybrid-hero .ups-subtitle {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+    margin-top: 10px;
+  }
+
+  /* Center buttons on mobile */
+  .hybrid-hero .hero-buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  /* Fix hero image size */
+  .hybrid-hero .hero-right img {
+    max-width: 260px !important;
+    width: 80% !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/****************************/
+/* ======================================================
+   HYBRID ACDC PAGE — MOBILE FIXES (only this page)
+====================================================== */
+
+.hybrid-acdc-hero .ups-title {
+  font-size: 34px;
+  line-height: 1.3;
+}
+
+/* Apply mobile fixes */
+@media (max-width: 768px) {
+
+  .hybrid-acdc-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 40px 20px !important;
+  }
+
+  .hybrid-acdc-hero .ups-title {
+    font-size: 20px !important;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+
+  .hybrid-acdc-hero .ups-subtitle {
+    font-size: 13px !important;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .hybrid-acdc-hero .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .hybrid-acdc-hero .hero-img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hybrid-acdc-hero .hero-img-wrapper img {
+    width: 260px !important;
+    height: auto;
+    object-fit: contain;
+  }
+}
+/* ======================================================
+   HYBRID MULTI OUTPUT PAGE — PAGE SPECIFIC FIXES
+====================================================== */
+
+.hybrid-multi-hero .ups-title {
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* --- MOBILE FIXES --- */
+@media (max-width: 768px) {
+
+  .hybrid-multi-hero {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 40px 20px !important;
+  }
+
+  .hybrid-multi-hero .ups-title {
+    font-size: 20px !important;
+    line-height: 1.25;
+    margin-bottom: 12px;
+  }
+
+  .hybrid-multi-hero .ups-subtitle {
+    font-size: 13px !important;
+    margin-bottom: 18px;
+    padding: 0 10px;
+  }
+
+  .hybrid-multi-hero .hero-buttons {
+    flex-direction: column !important;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .hybrid-multi-hero .hero-img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .hybrid-multi-hero .hero-img-wrapper img {
+    width: 260px !important;
+    height: auto;
+    object-fit: contain;
+  }
+}
 

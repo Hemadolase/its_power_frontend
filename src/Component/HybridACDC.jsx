@@ -11,7 +11,8 @@ function HybridACDC() {
   return (
     <>
       {/* HERO */}
-      <section className="ups-hero">
+     <section className="ups-hero hybrid-acdc-hero">
+
         <div className="hero-left" data-aos="fade-right">
           <h2 className="ups-title">Hybrid Solar Charge Controller <br /> (230VAC + DC Output)</h2>
 

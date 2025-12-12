@@ -11,7 +11,8 @@ function HybridMultiOutput() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="ups-hero">
+      <section className="ups-hero hybrid-multi-hero">
+
         <div className="hero-left" data-aos="fade-right">
           <h2 className="ups-title">Hybrid Solar Charge Controller <br /> Multiple DC Outputs</h2>
 
