@@ -7635,13 +7635,13 @@ textarea {
   }
 
   .solar-card {
-    height: auto;
-    padding-bottom: 10px;
+   height: 300px !important; 
   }
 
   .solar-card img {
-    height: 180px;
-    object-fit: contain;
+    width: 140px !important; 
+    height: auto !important;   /* PREVENT STRETCH */
+    object-fit: contain !important;
   }
 
   .solar-card h3 {
