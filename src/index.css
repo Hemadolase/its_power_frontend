@@ -7234,6 +7234,27 @@ textarea {
   }
 }
 
+/* ===== MOBILE: FORCE 3 CARDS PER ROW ===== */
+@media (max-width: 600px) {
+  .new-app-grid {
+    grid-template-columns: repeat(3, 1fr); /* 🔥 3 cards */
+    gap: 10px;
+  }
+
+  .new-app-img {
+    height: 90px; /* smaller image */
+  }
+
+  .new-app-name {
+    font-size: 11px;
+    padding: 8px 4px;
+  }
+
+  .new-app-card {
+    border-radius: 10px;
+  }
+}
+
 
 /*********************************Other Product **************************/
 /* ============================
