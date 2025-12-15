@@ -81,6 +81,22 @@ function Product_section_2() {
           </NavLink>
         </div>
 
+               <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="600">
+         <div className='img6'>
+           <img src="/img/online_2ed.jpeg" alt="Solar Power Solutions" />
+         </div>
+         <p data-aos="fade-up" data-aos-delay="650">Solar Power Solutions</p>
+         <NavLink
+           to="/Solar"
+           className="learn-more"
+           data-aos="fade-up"
+           data-aos-delay="700"
+         >
+           Learn More →
+         </NavLink>
+         </div>
+
+
       </div>
     </>
   );

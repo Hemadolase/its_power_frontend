@@ -3683,6 +3683,18 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+.Product_section_BOX1 .img6{
+  width: 194px !important;
+  height: 163px !important;
+  border-radius: 25px;
+  background-image: url("/img/Product_section_Banner2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .Product_section_BOX1 img{
   width: 90px;
