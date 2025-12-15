@@ -130,11 +130,21 @@ function Contact() {
           </div>
 
           <div className="social-icons">
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-google"></i>
-            <i className="fab fa-whatsapp"></i>
+            <a href="https://www.facebook.com/suresh.iramani.9" target="_blank" rel="noopener noreferrer" className="top-icon">
+    <i className="fab fa-facebook-f"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/company/its-power-infrastructure-pvt-ltd/" target="_blank" rel="noopener noreferrer" className="top-icon">
+    <i className="fab fa-linkedin-in"></i>
+  </a>
+     <a href="https://api.whatsapp.com/send?phone=918805523535&text=Hello%20ITS%20Power%20Team" target="_blank" rel="noopener noreferrer" className="top-icon">
+    <i className="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.google.com"  target="_blank" className="top-icon me-3"><i className="fab fa-google"></i></a>
+    
           </div>
+          
+
 
         </div>
       </div>
