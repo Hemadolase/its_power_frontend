@@ -54,10 +54,10 @@ function Home_Slider() {
               <div className="containt">
                 <h1 data-aos="fade-up">
                   Online UPS <br />
-                  <span style={{ fontSize: "24px", fontWeight: "400" }}>
-                    (Uninterruptible Power Supply)
-                  </span>
                 </h1>
+                 <p data-aos="fade-up" data-aos-delay="150">
+                Reliable Power Protection Solutions for Industrial & Commercial Applications
+              </p>
 
                 <NavLink
                   to="/product"
@@ -65,7 +65,7 @@ function Home_Slider() {
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  View Product
+                  Explore Products
                 </NavLink>
               </div>
 
@@ -85,14 +85,16 @@ function Home_Slider() {
 
               <div className="containt">
                 <h1 data-aos="fade-up">Servo Controlled Voltage Stabilizer</h1>
-
+                 <p data-aos="fade-up" data-aos-delay="150">
+                Precision Voltage Control for Critical Industrial Loads
+              </p>
                 <NavLink
                   to="/product"
                   className="btn btn-primary"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  View Product
+                 Explore Products
                 </NavLink>
               </div>
 
@@ -112,14 +114,16 @@ function Home_Slider() {
 
               <div className="containt">
                 <h1 data-aos="zoom-in">Battery Charger</h1>
-
+                   <p data-aos="fade-up" data-aos-delay="150">
+                High Efficiency Battery Charging Systems
+              </p>
                 <NavLink
                   to="/product"
                   className="btn btn-primary"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  View Product
+                 Explore Products
                 </NavLink>
               </div>
 
@@ -139,14 +143,16 @@ function Home_Slider() {
 
               <div className="containt">
                 <h1 data-aos="fade-down">Load Bank</h1>
-
+                 <p data-aos="fade-up" data-aos-delay="150">
+  Accurate Load Testing Solutions for Power Systems & Generators
+</p>
                 <NavLink
                   to="/product"
                   className="btn btn-primary"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  View Product
+                 Explore Products
                 </NavLink>
               </div>
 

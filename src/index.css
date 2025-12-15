@@ -4590,7 +4590,10 @@ textarea {
   padding: 20px;
   text-align: left;
 }
-
+.containt p{
+  font-size: 19px;
+  font-weight: 200;
+}
 .img-1 {
   width: 45%;
   height: auto;
