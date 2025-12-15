@@ -80,13 +80,7 @@ function Footer() {
             <NavLink data-aos="fade-right" data-aos-delay="250" to="/Battery_Charger">Battery Charger</NavLink><br />
             <NavLink data-aos="fade-right" data-aos-delay="300" to="/LoadBank">Load Bank</NavLink><br />
             <NavLink data-aos="fade-right" data-aos-delay="350" to="/isolation_transformer">Isoloation transformer</NavLink><br />
-            <NavLink
-  className="solar-link"
-  
-  to="/solarproduct"
->
-  Solar Product
-</NavLink>
+            <NavLink className="solar-link" to="/solarproduct">Solar Product</NavLink>
 
            </div>
 
