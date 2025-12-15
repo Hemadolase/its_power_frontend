@@ -96,8 +96,16 @@ function Footer() {
           </div>
 
         </div>
-
+      
       </div>
+      {/* FOOTER BOTTOM COPYRIGHT */}
+  <div className="footer-bottom">
+    <p>
+      Copyright © {new Date().getFullYear()} All Rights Reserved |
+      Powered by <span>ITS Power & Infrastructure Pvt. Ltd.</span>
+    </p>
+  </div>
+
     </>
   );
 }

@@ -1018,6 +1018,38 @@ color: rgb(73, 76, 83);
     color: #50C0F6;
   }
 }
+/* FOOTER BOTTOM */
+.footer-bottom {
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 10px;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.footer-bottom span {
+  font-weight: 600;
+  color: #063970;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
 
 
 /* endFooter */
