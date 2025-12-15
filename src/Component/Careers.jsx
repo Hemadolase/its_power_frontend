@@ -10,43 +10,58 @@ function Careers() {
     AOS.init({ duration: 800, once: true });
   }, []);
 
-  const sendCareerForm = async (e) => {
-    e.preventDefault();
-    setLoading(true);
+ const sendCareerForm = async (e) => {
+  e.preventDefault();
+  setLoading(true);
 
-    const formData = new FormData();
-    formData.append("fullname", form.current.fullname.value);
-    formData.append("education", form.current.education.value);
-    formData.append("phone", form.current.phone.value);
-    formData.append("email", form.current.email.value);
-    formData.append("experience", form.current.experience.value);
-    formData.append("location", form.current.location.value);
-    formData.append("message", form.current.message.value);
-    formData.append("resume", form.current.resume.files[0]); // IMPORTANT
+  await new Promise((resolve) => setTimeout(resolve, 200));
 
-    try {
-      const res = await fetch(
-        "https://its-power-backend.vercel.app/send-career",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+  const resumeFile = form.current.resume.files[0];
 
-      const result = await res.json();
-
-      if (result.success) {
-        alert("Application Sent Successfully!");
-        form.current.reset();
-      } else {
-        alert("Failed to send application!");
-      }
-    } catch (err) {
-      alert("Server Error!");
-    }
-
+  if (!resumeFile) {
+    alert("Please select a resume file");
     setLoading(false);
-  };
+    return;
+  }
+
+  if (resumeFile.size > 2 * 1024 * 1024) {
+    alert("Resume must be under 2MB");
+    setLoading(false);
+    return;
+  }
+
+  const formData = new FormData();
+  formData.append("fullname", form.current.fullname.value);
+  formData.append("education", form.current.education.value);
+  formData.append("phone", form.current.phone.value);
+  formData.append("email", form.current.email.value);
+  formData.append("experience", form.current.experience.value);
+  formData.append("location", form.current.location.value);
+  formData.append("message", form.current.message.value);
+  formData.append("resume", resumeFile);
+
+  try {
+    const res = await fetch("https://its-power-backend.vercel.app/send-career", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!res.ok) throw new Error("Upload failed");
+
+    const result = await res.json();
+
+    if (result.success) {
+      alert("Application Sent Successfully!");
+      form.current.reset();
+    } else {
+      alert(result.error || "Failed to send application");
+    }
+  } catch (err) {
+    alert("Server Error. Please try again.");
+  }
+
+  setLoading(false);
+};
 
   return (
     <>
@@ -96,9 +111,17 @@ function Careers() {
               <input type="file" name="resume" accept=".pdf,.doc,.docx" required />
             </div>
 
-            <button type="submit" className="submit-btn">
-              {loading ? "Sending..." : "Submit Application"}
-            </button>
+             
+
+                        <button
+  type="submit"
+  className="submit-btn"
+  disabled={loading}
+>
+  {loading ? "Sending..." : "Submit Application"}
+</button>
+
+
 
           </form>
         </div>
