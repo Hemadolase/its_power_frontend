@@ -14,6 +14,14 @@ function Gallery() {
 
     { src: "/img/Battery_Chaerger.png", category: "Battery" },
     { src: "/img/1PH-BatteryCharger.jpeg", category: "Battery" },
+    { src: "/img/battery_charger_1.jpeg", category: "Battery" },
+    { src: "/img/battery_charger_2.png", category: "Battery" },
+    { src: "/img/battery_charger_3.png", category: "Battery" },
+    { src: "/img/battery_charger_4.png", category: "Battery" },
+    { src: "/img/battery_charger_5.png", category: "Battery" },
+    { src: "/img/battery_charger_6.png", category: "Battery" },
+    { src: "/img/battery_charger_7.png", category: "Battery" },
+    { src: "/img/battery_charger_8.png", category: "Battery" },
 
     { src: "/img/servo_stabilizer_1st.jpeg", category: "Servo" },
     { src: "/img/servo_stabilizer_2nd.jpeg", category: "Servo" },
