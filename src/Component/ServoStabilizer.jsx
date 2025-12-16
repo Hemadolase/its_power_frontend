@@ -18,7 +18,7 @@ function ServoStabilizer() {
                           Get a Quote
                         </NavLink>
             
-                        <a href="#battery-products" className="hero-btn-outline">
+                        <a href="#servo-range-wrapper" className="hero-btn-outline">
                           Explore Range
                         </a>
                       </div>
@@ -61,7 +61,7 @@ function ServoStabilizer() {
       </div>
 
       {/* ------------------------- PRODUCT RANGE ------------------------- */}
-      <div className="servo-range-wrapper">
+      <div id="servo-range-wrapper" className="servo-range-wrapper">
         <h2 className="range-title" data-aos="fade-up">Our Servo Stabilizer Range</h2>
 
         <div className="servo-cards-container">

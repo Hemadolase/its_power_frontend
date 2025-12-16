@@ -18,7 +18,7 @@ function LoadBank() {
                           Get a Quote
                         </NavLink>
             
-                        <a href="#battery-products" className="hero-btn-outline">
+                        <a href="#loadbank-types" className="hero-btn-outline">
                           Explore Range
                         </a>
                       </div>
@@ -66,7 +66,7 @@ function LoadBank() {
 </section>
 
       {/* ------------------------- PRODUCT TYPES ------------------------- */}
-      <section className="loadbank-types">
+      <section id="loadbank-types"  className="loadbank-types">
 
         <h2 className="section-title" data-aos="fade-up">
           Our Load Bank Range

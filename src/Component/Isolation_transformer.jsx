@@ -16,9 +16,7 @@ function Isolation_transformer() {
                           Get a Quote
                         </NavLink>
             
-                        <a href="#battery-products" className="hero-btn-outline">
-                          Explore Range
-                        </a>
+                      
                       </div>
         </div>
 

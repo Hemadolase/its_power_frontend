@@ -6132,6 +6132,11 @@ textarea {
 }
 
 .inverter-hero .hero-content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
   flex: 1;
 }
 
@@ -8111,4 +8116,12 @@ textarea {
     width: 90%;
     margin-top: 20px;
   }
+}
+/* Fis IMage size for slider */
+
+.carousel-img {
+  max-width: 200px;   /* desktop */
+  width: 40%;
+  height: auto;
+  object-fit: contain;
 }
