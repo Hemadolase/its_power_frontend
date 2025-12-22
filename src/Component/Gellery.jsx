@@ -11,6 +11,8 @@ function Gallery() {
     { src: "/img/onlie_UPS_1PH-1PH.jpeg", category: "UPS" },
     { src: "/img/3ph-1ph(2).jpeg", category: "UPS" },
     { src: "/img/3ph-3ph(3).jpeg", category: "UPS" },
+    { src: "/img/onlie_1.jpeg", category: "UPS" },
+    { src: "/img/Online_1.jpeg", category: "UPS" },
 
     { src: "/img/Battery_Chaerger.png", category: "Battery" },
     { src: "/img/1PH-BatteryCharger.jpeg", category: "Battery" },
@@ -23,9 +25,15 @@ function Gallery() {
     { src: "/img/battery_charger_7.png", category: "Battery" },
     { src: "/img/battery_charger_8.png", category: "Battery" },
 
-    { src: "/img/servo_stabilizer_1st.jpeg", category: "Servo" },
-    { src: "/img/servo_stabilizer_2nd.jpeg", category: "Servo" },
+  
     { src: "/img/servo_stabilizer_3.jpeg", category: "Servo" },
+    { src: "/img/Servo_1.jpeg", category: "Servo" },
+    { src: "/img/Servo_2.jpeg", category: "Servo" },
+    { src: "/img/Servo_4.jpeg", category: "Servo" },
+     { src: "/img/servo_stabilizer_1st.jpeg", category: "Servo" },
+    { src: "/img/servo_stabilizer_2nd.jpeg", category: "Servo" },
+    { src: "/img/Servo_3.jpeg", category: "Servo" },
+     
 
     {  src: "/img/load_bank_BG.png", category: "LoadBank" },
     {  src: "/img/LoadBank_5th.jpeg", category: "LoadBank" },
@@ -34,6 +42,8 @@ function Gallery() {
     { src: "/img/Isolation_transformer_BG_1.png", category: "Transformer" },
 
     { src: "/img/online_2ed.jpeg", category: "Solar" },
+     { src: "/img/Hybdrid_2.jpeg", category: "Solar" },
+      { src: "/img/Hybrid_1.jpeg", category: "Solar" },
   ];
 
   // FILTERED IMAGES

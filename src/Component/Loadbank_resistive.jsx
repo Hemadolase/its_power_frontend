@@ -19,7 +19,7 @@ function Loadbank_resistive() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
+           
            
           </div>
         </div>
