@@ -24,8 +24,8 @@ function Servo_1ph_1ph() {
           </p>
 
           <div className="hero-buttons">
-            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink to="/technicalspecification_servo_1ph" className="btn-outline">
+          
+            <NavLink to="/technicalspecification_servo_1ph" className="btn-primary">
               Technical Specs
             </NavLink>
           </div>

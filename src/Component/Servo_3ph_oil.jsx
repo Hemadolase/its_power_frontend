@@ -26,8 +26,7 @@ function Servo_3ph_oil() {
           </p>
 
           <div className="hero-buttons">
-            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            
+          
           </div>
         </div>
 

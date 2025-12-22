@@ -25,8 +25,8 @@ function Servo_3ph_3ph() {
           </p>
 
           <div className="hero-buttons">
-            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink to="/technicalspecification_servo_3ph" className="btn-outline">
+         
+            <NavLink to="/technicalspecification_servo_3ph" className="btn-primary">
               Technical Specs
             </NavLink>
           </div>

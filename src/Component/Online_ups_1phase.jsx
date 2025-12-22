@@ -27,8 +27,7 @@ function Online_ups_1phase() {
           </p>
 
           <div className="hero-buttons">
-            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink to="/technicalSpecification" className="btn-outline">Technical Specs</NavLink>
+            <NavLink to="/technicalSpecification" className="btn-primary">Technical Specs</NavLink>
           </div>
         </div>
 

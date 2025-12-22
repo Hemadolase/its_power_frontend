@@ -20,23 +20,26 @@ function Product() {
   return (
     <>
       {/* HERO SECTION */}
-      <div className="product-hero">
-        <div className="overlay">
-          <img
-            src="img/Product_BG.png"
-            alt="Products Background"
-            
-          />
+     
+     <div className="product-hero">
+  <div className="overlay">
+    <h1
+      data-aos="fade-up"
+      data-aos-delay="200"
+      className="product-title"
+    >
+      PRODUCTS
+    </h1>
+  </div>
 
-          <h1
-            data-aos="fade-up"
-            data-aos-delay="200"
-            className="product-title"
-          >
-            PRODUCTS
-          </h1>
-        </div>
-      </div>
+  {/* PRODUCT IMAGE (MACHINES ONLY) */}
+  <img
+    src="img/Product_BG.webp"
+    alt="Products"
+    className="product-image"
+  />
+</div>
+
 
       {/* CATALOGUE SECTION */}
       <div data-aos="fade-up" data-aos-delay="200">

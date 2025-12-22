@@ -25,7 +25,7 @@ function BatteryCharger_3ph_FCBC() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">Download Brochure</a>
+         
             
           </div>
         </div>

@@ -34,8 +34,8 @@ function Online_ups_3_3_ph() {
           </p>
 
           <div className="hero-buttons">
-            <NavLink to="#" className="btn-primary">Download Brochure</NavLink>
-            <NavLink to="/technicalSpecification_3_3ph" className="btn-outline">Technical Specs</NavLink>
+          
+            <NavLink to="/technicalSpecification_3_3ph" className="btn-primary">Technical Specs</NavLink>
           </div>
         </div>
 
