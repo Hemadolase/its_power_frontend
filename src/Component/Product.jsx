@@ -34,6 +34,7 @@ function Product() {
 
   {/* PRODUCT IMAGE (MACHINES ONLY) */}
   <img
+  loading="lazy"
     src="img/Product_BG.webp"
     alt="Products"
     className="product-image"

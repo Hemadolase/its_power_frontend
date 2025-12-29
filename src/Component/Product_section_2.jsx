@@ -33,7 +33,7 @@ function Product_section_2() {
 
         <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="100">
           <div className='img1'>
-            <img src="/img/online_3rd.jpeg" alt="Online UPS" />
+            <img src="/img/online_3rd.jpeg" loading="lazy" alt="Online UPS" />
           </div>
           <p data-aos="fade-up" data-aos-delay="150">Online UPS</p>
           <NavLink to="/OnlineUPS" className="learn-more" data-aos="fade-up" data-aos-delay="200">
@@ -43,7 +43,7 @@ function Product_section_2() {
 
         <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="200">
           <div className='img2'>
-            <img src="/img/8th.jpeg" alt="Battery Charger" />
+            <img src="/img/8th.jpeg" loading="lazy" alt="Battery Charger" />
           </div>
           <p data-aos="fade-up" data-aos-delay="250">Battery Charger</p>
           <NavLink to="/Battery_Charger" className="learn-more" data-aos="fade-up" data-aos-delay="300">
@@ -53,7 +53,7 @@ function Product_section_2() {
 
         <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="300">
           <div className='img3'>
-            <img src="/img/servo_stabilizer_4.jpeg" alt="Servo Stabilizer" />
+            <img src="/img/servo_stabilizer_4.jpeg" loading="lazy" alt="Servo Stabilizer" />
           </div>
           <p data-aos="fade-up" data-aos-delay="350">Servo Stabilizer</p>
           <NavLink to="/ServoStabilizer" className="learn-more" data-aos="fade-up" data-aos-delay="400">
@@ -63,7 +63,7 @@ function Product_section_2() {
 
         <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="400">
           <div className='img4'>
-            <img src="/img/online_3rd.jpeg" alt="Industrial Inverter" />
+            <img src="/img/online_3rd.jpeg" loading="lazy" alt="Industrial Inverter" />
           </div>
           <p data-aos="fade-up" data-aos-delay="450">Industrial Inverter</p>
           <NavLink to="/IndustrialInverter" className="learn-more" data-aos="fade-up" data-aos-delay="500">
@@ -73,7 +73,7 @@ function Product_section_2() {
 
         <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="500">
           <div className='img5'>
-            <img src="/img/loadBank_bg_img.jpeg" alt="Load Bank" />
+            <img src="/img/loadBank_bg_img.jpeg" loading="lazy"  alt="Load Bank" />
           </div>
           <p data-aos="fade-up" data-aos-delay="550">Load Bank</p>
           <NavLink to="/LoadBank" className="learn-more" data-aos="fade-up" data-aos-delay="600">
@@ -83,7 +83,7 @@ function Product_section_2() {
 
         <div className="Product_section_b" data-aos="zoom-in" data-aos-delay="600">
          <div className='img6'>
-           <img src="/img/online_2ed.jpeg" alt="Solar Power Solutions" />
+           <img src="/img/online_2ed.jpeg" loading="lazy" alt="Solar Power Solutions" />
          </div>
          <p data-aos="fade-up" data-aos-delay="650">Solar Product</p>
          <NavLink
