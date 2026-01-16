@@ -41,7 +41,7 @@ function Footer() {
           </div>
 
           <NavLink data-aos="zoom-in" data-aos-delay="400"
-            to="https://www.facebook.com/suresh.iramani.9"
+            to="https://www.facebook.com/profile.php?id=100063800660260"
             className="text-dark me-2 icon1"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,12 +59,20 @@ function Footer() {
           </NavLink>
 
           <NavLink data-aos="zoom-in" data-aos-delay="500"
-            to="https://www.linkedin.com/company/its-power-&-infrastructure-pvt-ltd/posts/?feedView=all"
+            to="https://www.linkedin.com/company/its-power-infrastructure-pvt-ltd-power-solution/posts/?feedView=all"
             className="text-dark icon1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin"></i>
+          </NavLink>
+            <NavLink data-aos="zoom-in" data-aos-delay="500"
+            to="https://www.instagram.com/itspowerinfrastructure/"
+            className="text-dark icon1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
           </NavLink>
         </div>
 
@@ -89,6 +97,7 @@ function Footer() {
 
             <NavLink data-aos="fade-left" data-aos-delay="100" to="/">Home</NavLink><br />
             <NavLink data-aos="fade-left" data-aos-delay="150" to="/about">About</NavLink><br />
+            <NavLink data-aos="fade-left" data-aos-delay="150" to="/services">Services</NavLink><br />
             <NavLink data-aos="fade-left" data-aos-delay="200" to="/product">Product</NavLink><br />
             <NavLink data-aos="fade-left" data-aos-delay="250" to="/gellery">Gallery</NavLink><br />
             <NavLink data-aos="fade-left" data-aos-delay="300" to="/career">Careers</NavLink><br />
