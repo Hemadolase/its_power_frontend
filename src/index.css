@@ -1481,7 +1481,7 @@ color: rgb(73, 76, 83);
 .slide-track {
   display: flex;
   width: calc(200px * 12); 
-  animation: scroll 25s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 .slide_1_ {
@@ -4587,7 +4587,11 @@ textarea {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  background-color: #ECF8FF;
+background: linear-gradient(135deg, #003B6F 0%, #005A9E 100%);
+color: white;
+
+
+
 }
 
 .containt {
@@ -4595,7 +4599,7 @@ textarea {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: black;
+  color: w;
   padding: 20px;
   text-align: left;
 }
@@ -8145,4 +8149,34 @@ textarea {
   background-color: white;
   color: black;
 
+}
+
+
+/* 13 year cellebration */
+
+.anniversary-banner {
+  width: 100%;
+  background: linear-gradient(90deg, #003b73, #005aa7);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 40px 10px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .anniversary-banner {
+    font-size: 12px;
+    padding: 8px 35px 8px 10px;
+  }
 }

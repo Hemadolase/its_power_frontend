@@ -10,6 +10,20 @@ function ClientsSlider() {
     "/img/client_5.jpg",
     "/img/client_6.png",
     "/img/client_7.png",
+    "/img/client_8.png",
+    "/img/client_9.png",
+    "/img/client_10.png",
+    "/img/client_11.png",
+    "/img/client_12.png",
+    "/img/client_13.png",
+    "/img/client_14.png",
+    "/img/client_15.png",
+    "/img/client_16.png",
+    "/img/client_17.png",
+    "/img/client_18.png",
+    "/img/client_18.png",
+    "/img/client_20.png",
+    "/img/client_21.png",
   ];
 
   return (
