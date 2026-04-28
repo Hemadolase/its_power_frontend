@@ -22,7 +22,7 @@ function Isolation_transformer() {
 
         <div className="iso-hero-image" >
           <img
-            src="/img/Isolation_transformer_BG_1.png"
+            src="/img/ChatGPT_ISOLATION_TRANSFORMER.png"
             alt="Isolation Transformer Banner"
             data-aos="zoom-in"
           />

@@ -19,7 +19,7 @@ function Industrial_Inverter() {
         </div>
 
         <div className="hero-image" >
-          <img src="/img/Online_UPS_BG.png" alt="Industrial Inverter BG" data-aos="zoom-in" />
+          <img src="img/ChatGPT_UPS_2.png" alt="Industrial Inverter BG" data-aos="zoom-in" />
         </div>
       </section>
 

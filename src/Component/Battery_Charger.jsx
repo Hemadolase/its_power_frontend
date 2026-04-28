@@ -37,7 +37,7 @@ function Battery_Charger() {
         </div>
 
         <div className="hero-image" data-aos="zoom-in">
-          <img src="/img/Battery_Chaerger.png" alt="Battery Charger" />
+          <img src="/img/ChatGPT_BATTERY.png" alt="Battery Charger" />
         </div>
       </section>
 
@@ -46,7 +46,7 @@ function Battery_Charger() {
       ------------------------------------ */}
       <section className="about-battery">
         <div className="about-left" data-aos="fade-right">
-          <img src="/img/Battery_Chaerger.png" alt="Battery Charger" />
+          <img src="/img/ChatGPT_BATTERY_SEC_2.png" alt="Battery Charger" />
         </div>
 
         <div className="about-right" data-aos="fade-left">

@@ -25,7 +25,7 @@ function ServoStabilizer() {
         </div>
 
         <div className="servo-hero-image" data-aos="zoom-in">
-          <img src="/img/Servo_stabilizer_BG_2.png" alt="Servo BG" />
+          <img src="/img/ChatGPT_Stabilizer_3.png" alt="Servo BG" />
         </div>
 
       </div>
@@ -34,7 +34,7 @@ function ServoStabilizer() {
       <div className="servo-about-section">
 
         <div className="about-left" data-aos="fade-right">
-          <img src="/img/Servo_stabilizer_BG_2.png" alt="Servo" />
+          <img src="/img/ChatGPT_Stabilizer_sec_2.png" alt="Servo" />
         </div>
 
         <div className="about-right" data-aos="fade-left">

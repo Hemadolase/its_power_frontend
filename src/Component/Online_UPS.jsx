@@ -27,7 +27,7 @@ function Online_UPS() {
         </div>
 
         <div className="hero-right" data-aos="zoom-in">
-          <img src="img/Online_UPS_PG_1.png" alt="UPS" />
+          <img src="img/ChatGPT_UPS_2.png" alt="UPS" />
         </div>
 
       </section>
@@ -37,7 +37,7 @@ function Online_UPS() {
       <section className="about-section">
 
         <div className="about-left" data-aos="fade-right">
-          <img src="/img/Online_UPS_PG_1.png" alt="UPS system" />
+          <img src="/img/ChatGPT_UPS_SEC_2.png" alt="UPS system" />
         </div>
 
         <div className="about-right" data-aos="fade-left">
@@ -72,17 +72,17 @@ function Online_UPS() {
         <div className="product-grid">
 
           <NavLink to="/online-ups-1ph" className="product-card b1" data-aos="zoom-in">
-            <img src="/img/onlie_UPS_1PH-1PH.jpeg" alt="1Ph-1Ph UPS" />
+            <img src="/img/ChatGPT_Product_sec_3.png" alt="1Ph-1Ph UPS" />
             <h3>Online UPS 1Ph-1Ph</h3>
           </NavLink>
 
           <NavLink to="/online-ups-3ph" className="product-card b2" data-aos="zoom-in">
-            <img src="/img/3ph-1ph(2).jpeg" alt="3Ph-1Ph UPS" />
+            <img src="/img/ChatGPT_UPS_Sec_3_2.png" alt="3Ph-1Ph UPS" />
             <h3>Online UPS 3Ph-1Ph</h3>
           </NavLink>
 
           <NavLink to="/online-ups-3-3ph" className="product-card b3" data-aos="zoom-in">
-            <img src="/img/3ph-3ph(3).jpeg" alt="3Ph-3Ph UPS" />
+            <img src="/img/ChatGPT_UPS_SEC_3_3.png" alt="3Ph-3Ph UPS" />
             <h3>Online UPS 3Ph-3Ph</h3>
           </NavLink>
 

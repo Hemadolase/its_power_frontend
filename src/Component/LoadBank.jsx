@@ -25,7 +25,7 @@ function LoadBank() {
         </div>
 
         <div className="hero-image" data-aos="zoom-in">
-          <img src="/img/load_bank_BG.png" alt="Load Bank" />
+          <img src="/img/ChatGPT_LoadBank.png" alt="Load Bank" />
         </div>
 
       </section>
@@ -36,7 +36,7 @@ function LoadBank() {
 
   {/* LEFT IMAGE */}
   <div className="about-left" data-aos="fade-right">
-    <img src="/img/load_bank_BG.png" alt="Load Bank" />
+    <img src="/img/ChatGPT_LoadBank_sec_2.png" alt="Load Bank" />
   </div>
 
   {/* RIGHT TEXT */}
