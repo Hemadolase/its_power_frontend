@@ -68,21 +68,21 @@ function ServoStabilizer() {
 
           <NavLink to="/servo_1ph_1ph" data-aos="zoom-in">
             <div className="servo-card b1">
-              <img src="/img/servo_stabilizer_2nd.jpeg" alt="" />
+              <img src="/img/ChatGPT_Stabilizer_sec_3_1.png" alt="" />
               <h3>Servo Stabilizer 1Ph – 1Ph</h3>
             </div>
           </NavLink>
 
           <NavLink to="/servo_3ph_3ph" data-aos="zoom-in" data-aos-delay="150">
             <div className="servo-card b2">
-              <img src="/img/servo_stabilizer_3.jpeg" alt="" />
+              <img src="/img/ChatGPT_Stabilizer_sec_3_2.png" alt="" />
               <h3>Servo Stabilizer 3Ph – 3Ph</h3>
             </div>
           </NavLink>
 
           <NavLink to="/servo_3ph_oil" data-aos="zoom-in" data-aos-delay="300">
             <div className="servo-card b3">
-              <img src="/img/servo_stabilizer_1st.jpeg" alt="" />
+              <img src="/img/ChatGPT_Stabillizer_SEC_3_3.png" alt="" />
               <h3>Servo Stabilizer 3Ph – Oil Cooled</h3>
             </div>
           </NavLink>

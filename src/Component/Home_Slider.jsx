@@ -70,7 +70,7 @@ function Home_Slider() {
               </div>
 
               <img
-                src="/img/Online_ups.png"
+                src="/img/ChatGPT_caraousal_img.png"
                 className="carousel-img img-1"
                 alt="Online UPS"
                 data-aos="fade-left"
@@ -99,7 +99,7 @@ function Home_Slider() {
               </div>
 
               <img
-                src="/img/servo_stabilizer_2.png"
+                src="/img/ChatGPT_Battery_caraousal.png"
                 className="carousel-img img-1"
                 alt="Servo Stabilizer"
                 data-aos="fade-right"
@@ -128,7 +128,7 @@ function Home_Slider() {
               </div>
 
               <img
-                src="/img/Battery_charger.png"
+                src="/img/ChatGPT_Battery_carousal.png"
                 className="carousel-img img-1"
                 alt="Battery Charger"
                 data-aos="fade-left"
@@ -157,7 +157,7 @@ function Home_Slider() {
               </div>
 
               <img
-                src="/img/Load_bank.png"
+                src="/img/ChatGPT_LoadBank_Carousal.png"
                 className="carousel-img img-1"
                 alt="Load Bank"
                 data-aos="zoom-in-left"

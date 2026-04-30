@@ -97,22 +97,22 @@ function SolarProduct() {
   <div className="solar-grid">
 
     <NavLink to="/solarOff-GridInverter" className="solar-card b1" data-aos="zoom-in">
-      <img src="/img/online_2ed.jpeg" alt="Solar Off-Grid" />
+      <img src="/img/ChatGPT_Solar_Pro.png" alt="Solar Off-Grid" />
       <h3>Solar Off-Grid 1Ø–1Ø Inverter</h3>
     </NavLink>
 
     <NavLink to="/solarOff-GridInverter" className="solar-card b2" data-aos="zoom-in">
-      <img src="/img/online_2ed.jpeg" alt="Solar UPS" />
+      <img src="/img/ChatGPT_Solar_Pro.png" alt="Solar UPS" />
       <h3>Solar UPS</h3>
     </NavLink>
 
     <NavLink to="/hybrid-multi-output" className="solar-card b3" data-aos="zoom-in">
-      <img src="/img/Hybdrid_2.jpeg" alt="Hybrid Multi Output" />
+      <img src="/img/ChatGPT_Solar_product_sec_3_1.png" alt="Hybrid Multi Output" />
       <h3>Hybrid Controller – Multiple DC Outputs</h3>
     </NavLink>
 
     <NavLink to="/hybrid-acdc" className="solar-card b4" data-aos="zoom-in">
-      <img src="/img/Hybrid_1.jpeg" alt="Hybrid AC DC" />
+      <img src="/img/ChatGPT_Solar_product_sec3_2.png" alt="Hybrid AC DC" />
       <h3>Hybrid Controller (230VAC + DC Output)</h3>
     </NavLink>
 

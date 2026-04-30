@@ -5546,92 +5546,89 @@ color: white;
   margin: auto;
   display: grid;
   gap: 35px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-
+/* CARD */
 .battery-card {
-  background: #fff;
-  padding: 20px;
+  height: 300px;
   border-radius: 14px;
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
   overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
 }
 
 .battery-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
-
+/* IMAGE */
 .battery-card img {
-  width: 190px;
+  width: 60%;
   height: auto;
   object-fit: contain;
-  margin: 0 auto 10px auto;
+  transition: 0.3s;
+  transform: translateY(30px);
 }
 
+.battery-card.b4 img{
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+  transition: 0.3s;
+  transform: translateY(30px);
+}
+
+.battery-card.b6 img{
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+  transition: 0.3s;
+  transform: translateY(10px);
+}
+
+
+.battery-card:hover img {
+  transform: scale(1.05);
+}
+
+/* TEXT */
 .battery-card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
-
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+}
+/* BACKGROUNDS */
+.b4 {
+  background: url("/img/Product_section_Banner2.png") center/cover;
 }
 
-
-/* ------------------------------------
-   INDIVIDUAL BACKGROUND IMAGES
------------------------------------- */
-.battery-grid .b4 {
-  width: 300px;
-  height: 270px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: url("/img/Product_section_Banner2.png");
-  background-size: cover;
-  background-position: center;
+.b5 {
+  background: url("/img/Product_section_Banner3.png") center/cover;
 }
 
-.battery-grid .b4 img{
-  width: 100px;
- 
-}.battery-grid .b5 img{
-  width: 150px;
-}.battery-grid .b6 img{
-  width: 160px;
+.b6 {
+  background: url("/img/Product_section_Banner1.png") center/cover;
 }
 
-.battery-grid .b5 {
-   width: 300px;
-  height: 270px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: url("/img/Product_section_Banner3.png");
-  background-size: cover;
-  background-position: center;
-
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .battery-grid {
+    grid-template-columns: 1fr;
+  }
 }
-
-.battery-grid .b6 {
-   width: 300px;
-  height: 270px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: url("/img/Product_section_Banner1.png");
-  background-size: cover;
-  background-position: center;
-}
-
-
 /* ------------------------------------
    RESPONSIVE DESIGN
 ------------------------------------ */
@@ -5864,11 +5861,28 @@ color: white;
 }
 
 /* Card Images */
-.servo-card img {
+.servo-card.b2 img {
   width: 100%;
   height: 200px;
   object-fit: contain;
   object-position: center;
+  transform: translateY(35px);
+}
+
+.servo-card.b1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  transform: translateY(75px);
+}
+
+.servo-card.b3 img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  transform: translateY(70px);
 }
 
 /* Titles */
@@ -6036,12 +6050,14 @@ color: white;
 
 .types-container .b1 img{
   width: 210px;
+  transform: translateY(25px);
 }
 
 
 
 .types-container .b2 img{
   width: 230px;
+  transform: translateY(25px);
 }
 
 
@@ -7481,11 +7497,14 @@ color: white;
 
 .solar-grid .b1 img{
   width: 140px;
+  transform: translateY(25px);
 }
+
 
 
 .solar-grid .b2 img{
   width: 140px;
+  transform: translateY(30px);
 }
 
 .solar-grid .b3 img{
@@ -7547,6 +7566,7 @@ color: white;
   font-size: 18px;
   z-index: 3;
   font-weight: 800;
+  transform: translateY(15px);
   /* background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0.1), transparent); */
 }
 

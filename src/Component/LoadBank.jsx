@@ -76,14 +76,14 @@ function LoadBank() {
 
           <NavLink to="/loadbank_resistive" data-aos="zoom-in">
             <div className="type-card b1">
-              <img src="/img/loadBank_4th.jpeg" alt="Resistive Load Bank" />
+              <img src="/img/ChatGPT_Loadbank_sec_3_1.png" alt="Resistive Load Bank" />
               <h5>AC Load Bank</h5>
             </div>
           </NavLink>
 
           <NavLink to="/loadbank_inductive" data-aos="zoom-in" data-aos-delay="200">
             <div className="type-card b2">
-              <img src="/img/LoadBank_5th.jpeg" alt="Inductive Load Bank" />
+              <img src="/img/ChatGPT_loadbank_sec_3_2.png" alt="Inductive Load Bank" />
               <h5>DC Load Bank</h5>
             </div>
           </NavLink>

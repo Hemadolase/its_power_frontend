@@ -81,17 +81,17 @@ function Battery_Charger() {
         <div className="battery-grid">
 
           <NavLink to="/batteryCharger_1ph" className="battery-card b4" data-aos="zoom-in">
-            <img src="/img/1PH-BatteryCharger.jpeg" alt="" />
+            <img src="/img/ChatGPT_Battery_Sec_3_1.png" alt="" />
             <h3>1ph Battery Charger</h3>
           </NavLink>
 
           <NavLink to="/batteryCharger_1ph_FCBC" className="battery-card b5" data-aos="zoom-in">
-            <img src="/img/1ph_FCBC-BatteryCharger.jpg" alt="" />
+            <img src="/img/ChatGPT_Battery_sec_3_2.png" alt="" />
             <h3>1ph-FCBC Battery Charger</h3>
           </NavLink>
 
           <NavLink to="/batteryCharger_3ph_FCBC" className="battery-card b6" data-aos="zoom-in">
-            <img src="/img/3PH-FCBC-BattryCharger.jpeg" alt="" />
+            <img src="/img/ChatGPT_Battery_sec_3_3.png" alt="" />
             <h3>3ph-FCBC Battery Charger</h3>
           </NavLink>
 

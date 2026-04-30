@@ -83,7 +83,7 @@ function Footer() {
 
            
             <NavLink data-aos="fade-right" data-aos-delay="150" to="/onlineUPS">Online UPS</NavLink><br />
-            <NavLink data-aos="fade-right" data-aos-delay="100" to="/IndustrialInverter">Industry Inverter</NavLink><br />
+            <NavLink data-aos="fade-right" data-aos-delay="100" to="/IndustrialInverter">Industrial Inverter</NavLink><br />
             <NavLink data-aos="fade-right" data-aos-delay="200" to="/ServoStabilizer">Servo Stabilizer</NavLink><br />
             <NavLink data-aos="fade-right" data-aos-delay="250" to="/Battery_Charger">Battery Charger</NavLink><br />
             <NavLink data-aos="fade-right" data-aos-delay="300" to="/LoadBank">Load Bank</NavLink><br />

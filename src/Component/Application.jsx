@@ -14,13 +14,13 @@ function Application() {
     { title: "Aerospace", img: "/img/6.jpg" },
     { title: "Healthcare", img: "/img/7.jpg" },
     { title: "Chemical Industry", img: "/img/8.jpg" },
-    { title: "IT & Data Centers", img: "/img/9.jpg" },
-    { title: "Factory Automation", img: "/img/10.jpg" },
-    { title: "Retail Stores", img: "/img/11.jpg" },
-    { title: "Banking & ATMs", img: "/img/12.jpg" },
-    { title: "CNC Machines", img: "/img/13.jpg" },
-    { title: "Packaging Units", img: "/img/14.jpg" },
-    { title: "Small Industries", img: "/img/15.jpg" },
+    { title: "IT & Data Centers", img: "img/It_sector.webp" },
+    { title: "Factory Automation", img: "/img/Automation.webp" },
+    { title: "Retail Stores", img: "/img/Retail_Store.jpg" },
+    { title: "Banking & ATMs", img: "/img/Banking.jpg" },
+    { title: "CNC Machines", img: "/img/CNC.png" },
+    { title: "Packaging Units", img: "/img/Packing img.jpg" },
+    { title: "Small Industries", img: "/img/Small_industries.jpg" },
   ];
 
   return (
