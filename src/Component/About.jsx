@@ -21,10 +21,11 @@ function About() {
         </div>
       </div>
 
-      <ClientsSlider/>
+     
       <Preview/>
       <AchiveMents/>
       <Natio_service/>
+       <ClientsSlider/>
 
     </>
 

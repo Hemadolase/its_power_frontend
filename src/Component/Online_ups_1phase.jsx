@@ -33,7 +33,7 @@ function Online_ups_1phase() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
-            <img src="/img/onlie_UPS_1PH-1PH.jpeg" alt="Online UPS" />
+            <img src="/img/ChatGPT_Product_sec_3.png" alt="Online UPS" />
           </div>
         </div>
 

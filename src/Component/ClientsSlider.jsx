@@ -40,7 +40,7 @@ function ClientsSlider() {
         <div className="slide-track">
           {logos.concat(logos).map((logo, index) => (
             <div className="slide_1_" key={index}>
-              <img src={logo} alt="Client Logo" />
+              <img src={logo} alt="Client Logo" className="m-5 p-3" />
             </div>
           ))}
         </div>

@@ -19,7 +19,7 @@ function Solar_off_grid() {
         </div>
 
         <div className="hero-image solar-hero-img" data-aos="zoom-in">
-  <img  src="/img/online_2ed.jpeg" alt="Solar Products" />
+  <img  src="/img/ChatGPT_Solar_2.png" alt="Solar Products" />
 </div>
 
       </section>

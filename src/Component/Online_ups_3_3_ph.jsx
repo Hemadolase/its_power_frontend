@@ -41,7 +41,7 @@ function Online_ups_3_3_ph() {
 
         <div className="hero-right" data-aos="zoom-in">
           <img
-            src="/img/3ph-3ph(3).jpeg"
+            src="/img/ChatGPT_UPS_SEC_3_3.png"
             alt="Online UPS 3Ph–3Ph"
             className="product-image"
           />

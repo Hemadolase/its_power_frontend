@@ -26,7 +26,7 @@ function SolarProduct() {
     </div>
   </div>
 
-  <div className="solar-hero-img" data-aos="zoom-in">
+  <div className="solar-hero-img solar-main-sec" data-aos="zoom-in">
     <img src="/img/ChatGPT_Solar_2.png" alt="Solar Products" />
   </div>
 </section>
