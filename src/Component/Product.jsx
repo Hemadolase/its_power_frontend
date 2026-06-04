@@ -34,7 +34,6 @@ function Product() {
 
   {/* PRODUCT IMAGE (MACHINES ONLY) */}
   <img
-  loading="lazy"
     src="img/ChatGPT_Product_img.png"
     alt="Products"
     className="product-image"
