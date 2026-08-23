@@ -29,7 +29,7 @@ function HybridACDC() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
-            <img src="/img/Hybrid_1.jpeg" alt="Hybrid Controller 230VAC" />
+            <img src="/img/ChatGPT_Solar_product_sec_3_1.png" alt="Hybrid Controller 230VAC" />
           </div>
         </div>
       </section>

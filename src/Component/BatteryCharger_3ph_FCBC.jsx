@@ -16,7 +16,7 @@ function BatteryCharger_3ph_FCBC() {
       <section className="ups-hero">
 
         <div className="hero-left" data-aos="fade-right">
-          <h1 className="ups-title">Battery Charger 3Ph – FCBC</h1>
+          <h1 className="ups-title">Battery Charger <br /> 3Ph – FCBC</h1>
 
           <p className="ups-subtitle">
             Industrial-grade thyristor controlled battery charger designed for stable DC output, 
@@ -33,7 +33,7 @@ function BatteryCharger_3ph_FCBC() {
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
             <img
-              src="/img/3PH-FCBC-BattryCharger.jpeg"
+              src="/img/ChatGPT_Battery_sec_3_3.png"
               alt="Battery Charger 3Ph FCBC"
             />
           </div>

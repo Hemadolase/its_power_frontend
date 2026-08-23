@@ -33,7 +33,7 @@ function Servo_3ph_oil() {
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
             <img
-              src="/img/servo_stabilizer_1st.jpeg"
+              src="/img/ChatGPT_Stabillizer_SEC_3_3.png"
               alt="Servo Stabilizer 3Ph Oil Cooled"
             />
           </div>

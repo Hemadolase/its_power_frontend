@@ -14,7 +14,7 @@ function BatteryCharger_1ph_FCBC() {
       {/* ⭐ HERO SECTION (Same as Online UPS 1Ph–1Ph) */}
       <section className="ups-hero">
         <div className="hero-left" data-aos="fade-right">
-          <h1 className="ups-title">Battery Charger 1Ph–FCBC</h1>
+          <h1 className="ups-title">Battery Charger <br /> 1Ph–FCBC</h1>
 
           <p className="ups-subtitle">
             High-performance FCBC battery charger with thyristor-based control,
@@ -29,7 +29,7 @@ function BatteryCharger_1ph_FCBC() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
-            <img src="/img/1ph_FCBC-BatteryCharger.jpg" alt="Battery Charger FCBC" />
+            <img src="/img/ChatGPT_Battery_sec_3_2.png" alt="Battery Charger FCBC" />
           </div>
         </div>
       </section>

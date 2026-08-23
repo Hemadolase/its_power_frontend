@@ -29,7 +29,7 @@ function HybridMultiOutput() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
-            <img src="/img/Hybdrid_2.jpeg" alt="Hybrid Multi Output Controller" />
+            <img src="/img/ChatGPT_Solar_product_sec3_2.png" alt="Hybrid Multi Output Controller" />
           </div>
         </div>
       </section>

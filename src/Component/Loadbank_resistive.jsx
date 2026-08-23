@@ -26,7 +26,7 @@ function Loadbank_resistive() {
 
         <div className="hero-right" data-aos="zoom-in">
           <img
-            src="/img/DC_load_bank.jpeg"
+            src="/img/ChatGPT_Loadbank_sec_3_1.png"
             alt="Resistive Load Bank"
             className="product-image"
           />

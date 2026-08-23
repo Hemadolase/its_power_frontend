@@ -16,7 +16,8 @@ function Servo_1ph_1ph() {
       <section className="ups-hero">
 
         <div className="hero-left" data-aos="fade-right">
-          <h1 className="ups-title">Servo Stabilizer 1Ph–1Ph</h1>
+          <h1 className="ups-title">Servo Stabilizer <br />
+          1Ph–1Ph</h1>
 
           <p className="ups-subtitle">
             High-precision servo stabilizer designed for superior voltage regulation,
@@ -33,7 +34,7 @@ function Servo_1ph_1ph() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
-            <img src="/img/servo_stabilizer_2nd.jpeg" alt="Servo Stabilizer 1Ph" />
+            <img src="/img/ChatGPT_Stabilizer_sec_3_1.png" alt="Servo Stabilizer 1Ph" />
           </div>
         </div>
 

@@ -32,7 +32,7 @@ function BatteryCharger_1ph() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper">
-            <img src="/img/1PH-BatteryCharger.jpeg" alt="Battery Charger 1Ph" />
+            <img src="/img/ChatGPT_Battery_Sec_3_1.png" alt="Battery Charger 1Ph" />
           </div>
         </div>
 

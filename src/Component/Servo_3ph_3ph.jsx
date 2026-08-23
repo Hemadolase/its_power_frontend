@@ -34,7 +34,7 @@ function Servo_3ph_3ph() {
 
         <div className="hero-right" data-aos="zoom-in">
           <div className="hero-img-wrapper ">
-            <img src="/img/servo_stabilizer_3.jpeg" alt="Servo Stabilizer 3Ph–3Ph" />
+            <img src="/img/ChatGPT_Stabilizer_sec_3_2.png" alt="Servo Stabilizer 3Ph–3Ph" />
           </div>
         </div>
 

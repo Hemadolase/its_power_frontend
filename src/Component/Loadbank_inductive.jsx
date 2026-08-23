@@ -25,7 +25,7 @@ function Loadbank_inductive() {
         </div>
 
         <div className="hero-right" data-aos="zoom-in">
-         <img src="/img/LoadBank_5th.jpeg" alt="Inductive Load Bank" />
+         <img src="/img/ChatGPT_loadbank_sec_3_2.png" alt="Inductive Load Bank" />
         </div>
       </section>
 
