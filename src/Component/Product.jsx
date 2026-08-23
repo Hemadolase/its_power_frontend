@@ -4,9 +4,9 @@ import CatalogueSection from "./CatalogueSection";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./Product.css";
 
 function Product() {
-
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -20,26 +20,23 @@ function Product() {
   return (
     <>
       {/* HERO SECTION */}
-     
-     <div className="product-hero">
-  <div className="overlay">
-    <h1
-      data-aos="fade-up"
-      data-aos-delay="200"
-      className="product-title"
-    >
-      PRODUCTS
-    </h1>
-  </div>
+      <div className="product-hero">
+        <div className="overlay">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="product-title"
+          >
+            PRODUCTS
+          </h1>
+        </div>
 
-  {/* PRODUCT IMAGE (MACHINES ONLY) */}
-  <img
-    src="img/ChatGPT_Product_img.png"
-    alt="Products"
-    className="product-image"
-  />
-</div>
-
+        <img
+          src="/img/ChatGPT_Product_img.png"
+          alt="Products"
+          className="product-image"
+        />
+      </div>
 
       {/* CATALOGUE SECTION */}
       <div data-aos="fade-up" data-aos-delay="200">
